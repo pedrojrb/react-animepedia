@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-animepedia/static/css/main.84344577.chunk.css",
+    "main.js": "/react-animepedia/static/js/main.e7faa0eb.chunk.js",
+    "main.js.map": "/react-animepedia/static/js/main.e7faa0eb.chunk.js.map",
+    "runtime-main.js": "/react-animepedia/static/js/runtime-main.a93fa63b.js",
+    "runtime-main.js.map": "/react-animepedia/static/js/runtime-main.a93fa63b.js.map",
+    "static/css/2.6cd49f3e.chunk.css": "/react-animepedia/static/css/2.6cd49f3e.chunk.css",
+    "static/js/2.a168dd5a.chunk.js": "/react-animepedia/static/js/2.a168dd5a.chunk.js",
+    "static/js/2.a168dd5a.chunk.js.map": "/react-animepedia/static/js/2.a168dd5a.chunk.js.map",
+    "static/js/3.d1e52ca7.chunk.js": "/react-animepedia/static/js/3.d1e52ca7.chunk.js",
+    "static/js/3.d1e52ca7.chunk.js.map": "/react-animepedia/static/js/3.d1e52ca7.chunk.js.map",
+    "index.html": "/react-animepedia/index.html",
+    "static/css/2.6cd49f3e.chunk.css.map": "/react-animepedia/static/css/2.6cd49f3e.chunk.css.map",
+    "static/css/main.84344577.chunk.css.map": "/react-animepedia/static/css/main.84344577.chunk.css.map",
+    "static/js/2.a168dd5a.chunk.js.LICENSE.txt": "/react-animepedia/static/js/2.a168dd5a.chunk.js.LICENSE.txt",
+    "static/media/ramen.53c6b7b4.png": "/react-animepedia/static/media/ramen.53c6b7b4.png",
+    "static/media/styles.css": "/react-animepedia/static/media/revicons.e8746a62.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a93fa63b.js",
+    "static/css/2.6cd49f3e.chunk.css",
+    "static/js/2.a168dd5a.chunk.js",
+    "static/css/main.84344577.chunk.css",
+    "static/js/main.e7faa0eb.chunk.js"
+  ]
+}
