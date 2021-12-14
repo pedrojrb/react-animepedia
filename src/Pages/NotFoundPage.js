@@ -8,5 +8,7 @@ function NotFoundPage(){
             <p>404 ERROR</p>
             <p>Not Found...</p>
             <img src={ramenImg} alt="ramen" height="100px"></img>
-        </div>)
+        </div>
+        
+    )
 } export default NotFoundPage;

@@ -4,18 +4,13 @@ import Navigation from './Components/Nav/Nav';
 import Home from "./Pages/Home"
 import NotFoundPage from './Pages/NotFoundPage';
 import {BrowserRouter as Router,
-Switch, Route, Redirect} from "react-router-dom";
+Switch, Route} from "react-router-dom";
 import MoviesPage from './Pages/MoviesPage';
 import SearchPage from './Pages/SearchPage';
 import 'react-multi-carousel/lib/styles.css';
 
 
 function App() {
-
-  useEffect(() => {
-
-    <Redirect to="/" />
-  }, [])
   
   return (
 
@@ -32,7 +27,7 @@ function App() {
           <Route path="/movies" exact component={MoviesPage} />
           
         
-          <Route path={"/"} component={Home} />
+          <Route path={"/" || "react-animepedia/"} component={Home} />
 
           <Route path="*" component={NotFoundPage} />
 
