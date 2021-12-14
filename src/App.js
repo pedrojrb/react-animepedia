@@ -4,7 +4,7 @@ import Navigation from './Components/Nav/Nav';
 import Home from "./Pages/Home"
 import NotFoundPage from './Pages/NotFoundPage';
 import {BrowserRouter as Router,
-Switch, Route} from "react-router-dom";
+Switch, Route, Redirect} from "react-router-dom";
 import MoviesPage from './Pages/MoviesPage';
 import SearchPage from './Pages/SearchPage';
 import 'react-multi-carousel/lib/styles.css';
