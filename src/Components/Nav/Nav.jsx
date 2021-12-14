@@ -70,7 +70,7 @@ function Navigation(){
         <div className="container-nav">
         <Navbar bg="dark" expand="lg">
             <Container fluid>
-                <Navbar.Brand > <Link to={"/"}  className="title">ANIMEPEDIA</Link></Navbar.Brand>
+                <Navbar.Brand > <Link to={"/react-animepedia/"}  className="title">ANIMEPEDIA</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll"/>
                 <Navbar.Collapse id="navbarScroll">
                 <NavRB
