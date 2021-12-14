@@ -25,7 +25,8 @@ function App() {
           <Route path="/search/:use" component={SearchPage} />
 
           <Route path="/movies" exact component={MoviesPage} />
-  
+          
+          <Redirect from="/react-animepedia" to="/" />
           <Route path="/" exact component={Home} />
 
           <Route path="*" component={NotFoundPage} />
