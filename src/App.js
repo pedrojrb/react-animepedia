@@ -21,13 +21,15 @@ function App() {
         <Navigation />
 
         <Switch>
+
+          {window.location.pathname == "/react-animepedia/" ? <Route path={window.location.pathname} component={Home} /> : false}
           
           <Route path="/search/:use" component={SearchPage} />
 
           <Route path="/movies" exact component={MoviesPage} />
           
         
-          <Route path={"react-animepedia/"} component={Home} />
+          <Route path={"/"} component={Home} />
 
           <Route path="*" component={NotFoundPage} />
 
