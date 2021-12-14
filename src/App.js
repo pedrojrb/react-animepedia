@@ -29,7 +29,7 @@ function App() {
           <Route path="/movies" exact component={MoviesPage} />
           
         
-          <Route path={"/"} component={Home} />
+          <Route path={["/", "/react-animepedia/"]} component={Home} />
 
           <Route path="*" component={NotFoundPage} />
 
