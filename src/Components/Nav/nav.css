@@ -1,0 +1,55 @@
+
+
+.title{ 
+    text-decoration: none;
+    font-size: 40px;
+    font-family: Bebas Neue, cursive;
+    color:#ff0000;
+    letter-spacing: 0.05em;
+}
+
+.title:hover{
+    color:#ff0000;
+}
+
+.buttonMovies{
+
+    text-decoration: none;
+    font-size: 18px;
+    color:#ffffff;
+    letter-spacing: 0.02em;
+}
+
+.buttonMovies:hover{
+    color:white;
+}
+
+.buttonSearch{
+
+    color:white;
+    border: 2px solid white;
+
+}
+
+.buttonSearch:hover{
+    border: 2px solid #ff0000;
+    background-color: red;
+}
+
+@media all and (max-width: 280px){
+
+    .containar-nav{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+
+    }
+
+}
+
+@media all and (max-width:200px)  {
+
+    .title{
+        font-size: 25px;
+    }
+}

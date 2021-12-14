@@ -1,0 +1,150 @@
+
+.container-parent{
+
+  padding:0
+}
+
+.container-child{
+    padding:0;
+    position: relative;
+    width:150px;
+    height: 200px;
+    margin:0px ;
+    overflow: hidden;
+
+    
+}
+
+.img{
+    width: 150px;
+    height:200px;
+}
+
+figcaption {
+    width: 100%;
+    position: absolute;
+    transition: all 0.9s;
+    background-color: #d3d3d3;
+    bottom:-100px;
+    display:none;
+    color: #000000;
+    padding: 10%;
+   
+}
+
+.container-child:hover{
+    width: 200px;
+    height: 300px;
+}
+.container-child:hover img{
+
+    width:200px;
+    height:300px;
+    opacity: 0.3;
+
+} 
+.container-child:hover figcaption{
+    display: block;
+    bottom:0px;
+}
+
+@media all and (max-width:500px){
+
+    .container-child{
+        padding:0;
+        position: relative;
+        width:120px;
+        height: 200px;
+        margin:0px ;
+        overflow: hidden;
+    
+        
+    }
+    
+    figcaption{
+
+        font-size: 10px;
+    }
+
+    .img{
+        width: 120px;
+        height:200px;
+    }
+
+    .container-child:hover{
+        width: 120px;
+        height: 200px;
+    }
+    .container-child:hover img{
+    
+        width:120px;
+        height:200px;
+        opacity: 0.3;
+    
+    } 
+    
+}
+
+
+
+@media all and (max-width:360px){
+
+    .container-child{
+
+        width:100px;
+        height: 150px;
+    }
+    
+
+    .img{
+        width: 100px;
+        height: 150px;
+    }
+
+    .container-child:hover figcaption{
+        font-size: 12px;
+    }
+
+    .container-child:hover{
+        width: 100px;
+        height: 150px;
+    }
+
+    .container-child:hover img{
+
+        width:100px;
+        height:150px;
+        opacity: 0.3;
+    }
+}
+
+@media all and (max-width:320px){
+
+    .container-child{
+
+        width:80px;
+        height: 150px;
+    }
+    
+
+    .img{
+        width: 80px;
+        height: 150px;
+    }
+
+    .container-child:hover figcaption{
+        font-size: 12px;
+    }
+
+    .container-child:hover{
+        width: 80px;
+        height: 150px;
+    }
+
+    .container-child:hover img{
+
+        width:80px;
+        height:150px;
+        opacity: 0.3;
+    }
+}
